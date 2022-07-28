@@ -26,6 +26,9 @@
 .courses-details p{
     font-size: .8rem;
 }
+.about-bg{
+    background-color: #F4FAFD;
+}
 
 @media screen and (max-width:576px) {
     .carousel-caption{
@@ -47,6 +50,9 @@
 @media screen and (min-width:577px) and (max-width:991px) {
     .course-thumbnail img{
         width: 9rem;
+    }
+    .about{
+        display: none;
     }
 }
 
