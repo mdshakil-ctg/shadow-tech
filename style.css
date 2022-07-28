@@ -4,8 +4,24 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.carousel-img{
+    filter: brightness(50%);
+}
 
+@media screen and (max-width:576px) {
+    .carousel-caption{
+        max-height: 70%;
+    }
+    .carousel-caption h1{
+        font-size: 1.5rem;
+        margin-top: -2rem;
+    }
+    .carousel-caption p{
+        font-size: .5rem;
+        margin: 0;
+    }
 
+}
 
 
 
