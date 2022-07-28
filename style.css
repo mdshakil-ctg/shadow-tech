@@ -29,7 +29,9 @@
 .about-bg{
     background-color: #F4FAFD;
 }
-
+.register{
+    height: 15rem;
+}
 @media screen and (max-width:576px) {
     .carousel-caption{
         max-height: 70%;
