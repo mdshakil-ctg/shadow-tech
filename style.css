@@ -6,17 +6,9 @@
     margin: 0;
     padding: 0;
 }
-
 .carousel-img{
     filter: brightness(50%);
 }
-/* .problem h5{
-    font-size: 1.5rem;
-}
-.problem-img img{
-    
-} */
-
 .course-thumbnail img{
     width: 23rem;
 }
@@ -32,8 +24,8 @@
 .register{
     height: 15rem;
 }
-
-@media screen and (max-width:576px) {
+/* mobile screen  */
+@media screen and (max-width:767px) {
     .carousel-caption{
         max-height: 70%;
     }
@@ -48,14 +40,26 @@
     .courses p{
         font-size: .8rem;
     }
+    .frequent-bar{
+        width: 100%;
+    }
 }
-
-@media screen and (min-width:577px) and (max-width:991px) {
+/* tab screen  */
+@media screen and (min-width:768px) and (max-width:991px) {
     .course-thumbnail img{
         width: 9rem;
     }
     .about{
         display: none;
+    }
+    .frequent-bar{
+        width: 100%;
+    }
+}
+/* desktop screen  */
+@media screen and (min-width:992px) {
+    .frequent-bar{
+        width: 50%;
     }
 }
 
