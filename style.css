@@ -6,9 +6,11 @@
     margin: 0;
     padding: 0;
 }
+/* header section  */
 .carousel-img{
     filter: brightness(50%);
 }
+/* course section  */
 .course-thumbnail img{
     width: 23rem;
 }
@@ -18,9 +20,11 @@
 .courses-details p{
     font-size: .8rem;
 }
+/* about section  */
 .about-bg{
     background-color: #F4FAFD;
 }
+/* register section  */
 .register{
     height: 15rem;
 }
